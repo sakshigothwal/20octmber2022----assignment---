@@ -1,38 +1,70 @@
+@font-face {
+    font-family:"myfonts" ;
+    src: url("../fonts/RoxaleStoryItalic-GOwLa.otf") format("opentype");
+}
+@font-face {
+    font-family:"mycustomfonts" ;
+    src: url("../fonts/LoveRabbitPersonalUse-lgRaZ.ttf") format("truetype");
+}
+@font-face {
+    font-family:"mycustomfonts" ;
+    src: url("../fonts/LoveRabbitPersonalUse-lgRaZ.ttf") format("truetype");
+}
+
+
 header,footer{
     width: 100%;
     height: 300px;
-    background:burlywood;
+    background:yellow;
+    text-align: center;
+    font-size: 5em;
+    
 }
 main{
     width: 100%;
+    background: wheat;
 }
 
 aside.left{
     width: 25%;
     height: 1000px;
     background:royalblue;
-    display: inline-block;
+    font-size: 7em;
+    text-align: center;
+    color: blanchedalmond;
     float: left;
+    font-family: "mycustomfonts";
+    line-height: 120px;
 }
 
 main > section{
     width: 50%;
     height: 1000px;
-    background:rgb(100, 96, 96);
-    float: left;
+    background:skyblue;
+    text-align: center;
+    font-size: 50px ;
+    color:maroon;
+    float: left ;
+    font-weight: bold;
+    
 }
 main > section > article{
     width: 100%;
-    height: 180px;
-    border:1px dashed #000;
-    margin: 20px 0px;
+    height: 197px; 
+    border : 2px dotted black;
+    font-family: "myfonts",sans-serif;  
+    
 }
 aside.right{
-    width: 24.5%;
+    width: 100%;
     height: 1000px;
-    background:gold;
+    background:wheat;
     display: inline-block;
-    float: left;
+    text-align: center;
+    font-size: 7em;
+    font-family: "mycustomfonts";
+    line-height: 120px;
+
 }
 
 footer{
